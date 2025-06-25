@@ -33,7 +33,7 @@ This project is a lightweight CLI tool that detects the English accent (e.g., Am
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/accent_detector.git
+   git clone https://github.com/BayremAbdellaoui/english_accent_classifier.git
    cd accent_detector
    ```
 2. Install Python dependencies:
@@ -52,7 +52,6 @@ This project is a lightweight CLI tool that detects the English accent (e.g., Am
 ## Notes
 - The accent classifier model is open-source and provided by [Jzuluaga/accent-id-commonaccent_ecapa](https://huggingface.co/Jzuluaga/accent-id-commonaccent_ecapa).
 - The model works best with clear, single-speaker English audio. Results may be less accurate for noisy, multi-speaker, or short clips.
-- Only the audio is used for accent detection; no transcription is performed.
 - All downloaded models and audio files are stored locally and ignored by git.
 
 ## License
